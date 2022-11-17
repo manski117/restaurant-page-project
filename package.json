@@ -1,17 +1,29 @@
 {
-  "name": "repos",
+  "name": "resturaunt-page-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "author": "manski117",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manski117/resturaunt-page-project.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manski117/resturaunt-page-project/issues"
+  },
+  "homepage": "https://github.com/manski117/resturaunt-page-project#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
   "devDependencies": {
     "css-loader": "^6.7.2",
     "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0"
   }
 }
